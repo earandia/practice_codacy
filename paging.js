@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/test_code',(req,res)=>{
-    res.send('<h4>Esto es un codigo de prueba</h4>');
+    res.send('Esto es un codigo de prueba');
 })
 
 app.listen(port, () => {
