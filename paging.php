@@ -1,3 +1,5 @@
 <?php 
-echo "hola mundo"
+$msg = "hola mundo";
+
+echo $msg
 ?>
