@@ -1,0 +1,9 @@
+{
+    "entryPoints": ["./**/*"],
+    "out": "docs",
+    "tsconfig": "tsconfig.json",
+    "includeVersion": true,
+    "excludeExternals": true,
+    "exclude": ["node_modules", "dist", "test","docs"]
+  }
+  
