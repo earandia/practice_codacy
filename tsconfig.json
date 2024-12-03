@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": ".", // Este debería ser tu directorio raíz
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types"
+    ]
+  },
+  "include": [
+    "/**/*", // Incluye todos los archivos en tu carpeta server
+    "/index.ts" // Asegúrate de que index.ts esté incluido
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
