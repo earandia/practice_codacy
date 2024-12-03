@@ -60,7 +60,7 @@ export default {
       const user = (req as any)?.current_user;
       const user_id = parameters.user_id
         ? parameters.user_id
-        : user._id;
+        : '670feb4c67672ee3236d8a72';
       return res.json(await models.User.findById(user_id));
     }
   },
